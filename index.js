@@ -87,11 +87,15 @@ Quadrilateral.prototype.constructor = Quadrilateral;
 
 //////////////////////////////////////////////////////////////////////////
 
-function Rectangle(x,y)
+function Rectangle(length,width)
 {
-    this.x = x;
-    this.y = y;
+    this.length = length;
+    this.width = width;
 }
 
 Rectangle.prototype = Object.create(Quadrilateral.prototype);
 Rectangle.prototype.constructor = Rectangle;
+Rectangle.prototype.area = function()
+{
+  return this.length * this.width;
+}
