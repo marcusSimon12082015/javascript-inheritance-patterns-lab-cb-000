@@ -99,3 +99,10 @@ Rectangle.prototype.area = function()
 {
   return this.height * this.width;
 }
+
+////////////////////////////////////////////////////////////////////////
+function Triangle(x,y,z)
+{
+  Polygon.call(this,[new Side(x),new Side(y),new Side(z)]);
+}
+
