@@ -30,6 +30,7 @@ Shape.prototype.move = function(x,y)
   this.position = new Point(x,y);
 }
 
+/////////////////////////////////////////////////////////////////////
 function Circle(radius)
 {
   this.radius = radius;
@@ -46,3 +47,11 @@ Circle.prototype.circumference = function()
 {
   return 2 * Math.PI * this.radius;
 }
+
+///////////////////////////////////////////////////
+function Polygon()
+{
+  
+}
+
+Polygon.prototype.constructor = Object.create(Shape.prototype);
