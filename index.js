@@ -36,3 +36,13 @@ function Circle(radius)
 }
 Circle.prototype = Object.create(Shape.prototype);
 Circle.prototype.constructor = Circle;
+
+Circle.prototype.area = function()
+{
+  return Math.PI * Math.pow(this.radius,2);
+}
+
+Circle.prototype.circumference = function()
+{
+  return 2 * Math.PI * this.radius;
+}
