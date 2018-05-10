@@ -100,6 +100,14 @@ Rectangle.prototype.area = function()
   return this.height * this.width;
 }
 
+Rectangle.perimeter = function()
+{
+  return 2 * (this.height + this.width);
+}
+Rectangle.numberOfSides = function()
+{
+  return 4;
+}
 ////////////////////////////////////////////////////////////////////////
 function Triangle(x,y,z)
 {
