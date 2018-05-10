@@ -30,7 +30,7 @@ Shape.prototype.move = function(x,y)
   this.position = new Point(x,y);
 }
 
-function Circle()
+function Circle(radius)
 {
-  
+  this.radius = radius;
 }
