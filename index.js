@@ -107,3 +107,12 @@ function Triangle(x,y,z)
 }
 Triangle.prototype = Object.create(Polygon.prototype);
 Triangle.prototype.constructor = Triangle;
+
+//////////////////////////////////////////////////////////////////////////////
+function Square(x)
+{
+  this.length = x;
+}
+
+Square.prototype = Object.create(Rectangle.prototype);
+Square.prototype.constructor = Square;
