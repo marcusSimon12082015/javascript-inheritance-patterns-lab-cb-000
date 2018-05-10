@@ -133,3 +133,13 @@ Square.prototype.perimeter = function()
 {
   return Math.pow(this.length,2);
 }
+Square.prototype.listProperties = function()
+{
+  for(var prop in this)
+  {
+    if(this.hasOwnProperty(prop))
+    {
+      console.log(this[prop]);
+    }
+  }
+}
