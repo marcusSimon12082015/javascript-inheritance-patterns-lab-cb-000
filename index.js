@@ -124,3 +124,11 @@ function Square(x)
 
 Square.prototype = Object.create(Rectangle.prototype);
 Square.prototype.constructor = Square;
+Square.prototype.area = function()
+{
+  return this.length * 2;
+}
+Square.prototype.perimeter = function()
+{
+  return this.length * 2;
+}
