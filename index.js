@@ -105,4 +105,3 @@ function Triangle(x,y,z)
 {
   Polygon.call(this,[new Side(x),new Side(y),new Side(z)]);
 }
-
