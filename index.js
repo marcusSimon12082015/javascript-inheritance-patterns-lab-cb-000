@@ -34,3 +34,5 @@ function Circle(radius)
 {
   this.radius = radius;
 }
+Circle.prototype = Object.create(Shape.prototype);
+Circle.prototype.constructor = Circle;
