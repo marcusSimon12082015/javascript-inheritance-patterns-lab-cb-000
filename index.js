@@ -70,3 +70,8 @@ Polygon.prototype.perimeter = function()
   });
   return total;
 }
+
+Polygon.prototype.numberOfSides = function()
+{
+  return this.sides.length;
+}
