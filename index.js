@@ -69,4 +69,3 @@ Polygon.prototype.perimeter = function()
     return total += side.length;
   });
 }
-
