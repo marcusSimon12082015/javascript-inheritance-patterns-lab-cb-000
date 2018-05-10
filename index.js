@@ -130,5 +130,5 @@ Square.prototype.area = function()
 }
 Square.prototype.perimeter = function()
 {
-  return this.length * 2;
+  return Math.pow(this.length,2);
 }
