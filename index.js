@@ -62,3 +62,11 @@ function Polygon()
 
 Polygon.prototype = Object.create(Shape.prototype);
 Polygon.prototype.constructor = Polygon;
+Polygon.prototype.perimeter = function()
+{
+  var total = 0;
+  this.sides.forEach(function(side){
+    return total += side.length;
+  });
+}
+
