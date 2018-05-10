@@ -126,7 +126,7 @@ Square.prototype = Object.create(Rectangle.prototype);
 Square.prototype.constructor = Square;
 Square.prototype.area = function()
 {
-  return this.length * 2;
+  return Math.pow(this.length,2);
 }
 Square.prototype.perimeter = function()
 {
