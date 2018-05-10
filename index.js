@@ -82,5 +82,5 @@ function Quadrilateral(x,y,z,k)
   Polygon.call(this,[new Side(x),new Side(y),new Side(z),new Side(k)]);
 }
 
-Quadrilateral.prototype = Object.create(Polygon);
+Quadrilateral.prototype = Object.create(Polygon.prototype);
 Quadrilateral.prototype.constructor = Quadrilateral;
