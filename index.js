@@ -86,3 +86,12 @@ Quadrilateral.prototype = Object.create(Polygon.prototype);
 Quadrilateral.prototype.constructor = Quadrilateral;
 
 //////////////////////////////////////////////////////////////////////////
+
+function Rectangle(x,y)
+{
+    this.x = x;
+    this.y = y;
+}
+
+Rectangle.prototype = Object.create(Quadrilateral.prototype);
+Rectangle.prototype.constructor = Rectangle;
