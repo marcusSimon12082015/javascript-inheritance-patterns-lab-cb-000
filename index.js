@@ -84,3 +84,5 @@ function Quadrilateral(x,y,z,k)
 
 Quadrilateral.prototype = Object.create(Polygon.prototype);
 Quadrilateral.prototype.constructor = Quadrilateral;
+
+//////////////////////////////////////////////////////////////////////////
