@@ -60,4 +60,5 @@ function Polygon()
 
 }
 
-Polygon.prototype.constructor = Object.create(Shape.prototype);
+Polygon.prototype = Object.create(Shape.prototype);
+Polygon.prototype.constructor = Polygon;
