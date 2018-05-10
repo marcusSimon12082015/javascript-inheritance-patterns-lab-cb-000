@@ -68,4 +68,5 @@ Polygon.prototype.perimeter = function()
   this.sides.forEach(function(side){
     return total += side.length;
   });
+  return total;
 }
