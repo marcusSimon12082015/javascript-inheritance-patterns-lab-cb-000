@@ -97,5 +97,5 @@ Rectangle.prototype = Object.create(Quadrilateral.prototype);
 Rectangle.prototype.constructor = Rectangle;
 Rectangle.prototype.area = function()
 {
-  return this.length * this.width;
+  return this.height * this.width;
 }
