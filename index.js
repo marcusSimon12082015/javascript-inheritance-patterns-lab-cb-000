@@ -57,7 +57,7 @@ Circle.prototype.circumference = function()
 ///////////////////////////////////////////////////
 function Polygon()
 {
-
+  this.sides = new Array();
 }
 
 Polygon.prototype = Object.create(Shape.prototype);
