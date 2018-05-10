@@ -119,6 +119,7 @@ Triangle.prototype.constructor = Triangle;
 //////////////////////////////////////////////////////////////////////////////
 function Square(x)
 {
+  Rectangle.call(this,x,x);
   this.length = x;
 }
 
